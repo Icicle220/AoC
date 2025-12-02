@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <string.h>
 #include <stdlib.h>
-int gz = 0;
+int gz = 0; //This is the counter for part 2
 //Function to move left
 int left(int a,int pos){
 	int b=0;
@@ -39,7 +39,7 @@ int checker(int pos,int z){
 }
 
 int main(){
-    int i=0, pos=50, z=0;
+    int i=0, pos=50, z=0; //z is the counter for part 1
 	int a=0;
 	char dir='a';
 	char line[5],num[4];
@@ -65,4 +65,5 @@ int main(){
 	printf("Zerocount part 2= %d\n", gz);
 	fclose(f);
     return 0;
+
 }
